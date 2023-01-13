@@ -102,15 +102,22 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--title);
 }
+
+
 .hero-button {
     font-family: 'Roboto',sans-serif;
-    background:var(--iris);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color:var(--portfolio-button);
     color:var(--title);
     cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background:var(--iris);
+
 }
 /*_________________ Section 2 _________________*/
 .work-item-title {
@@ -198,35 +205,20 @@ color: var(--iris);
 }
 /*____________________________ portfolio __________________________________*/
 
-.button-list-iris {
+.button-list-text {
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: var(--title);
-    background:var(--portfolio-button);
+    color:var(--portfolio-button);
     cursor: pointer;
 }
-.button-list-text {
-    font-family: 'Roboto',sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color:var(--portfolio-button);
-cursor: pointer;
-}
 
-
-
-
-
-
-
-.button-list-iris{
-
+.button-list-text:hover,
+.button-list-text:focus{
+    background-color: var(--iris);
+    color: var(--title);
 }
 
 .photo-title {
